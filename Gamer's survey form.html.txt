@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lan="en">
+     
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="styles.css"></link>
+      <title>Survey Form</title>
+    </head>
+
+    <body>
+      <h1 id="title">Survey Form</h1>
+      <form id="survey-form" method="post" action="I don't have a website yet!!">
+      <label name="imp">
+      <p name="author">By Amandeep Singh</p>
+      <p id="description" name="for">Only For Gamers!!!</p>
+      <p name="required">Please fill out the required details marked with (*)</p>
+      </label>
+
+      <fieldset>
+        <label for="name" id="name-label">Name: <input required type="text" id="name" name="name" placeholder="Rio"> </label>
+        <label for="email" id="email-label">Email: <input required type="email" id="email" placeholder="xyz@xyz.com"></label>
+        <label for="contact" id="number-label">Mobile Number: 
+          <select id="dropdown" name="country-code" required>
+              <option>choose country code here</option>
+              <option>Another Palnet (00000)</option>
+              <option>India (+91)</option>
+              <option>USA (+1)</option>
+            </select>
+          <input required type="number" min="10" max="10" id="number" placeholder="xxxx912917" name="contact"></label>
+        <label for="country" id="country-label">Country: <input required type="text" id="country" name="country" placeholder="India"> </label>
+        <label for="bio" id="bio-label" class="inline">Bio: <textarea required class="inline"type="text" id="bio" name="bio" placeholder="I am........."></textarea></label>
+      </fieldset>
+
+      <fieldset>
+        <p>Which Games Do You Like:</p>
+        <label for="fps"><input type="checkbox" value="fps" name="fps"class="inline">FPS Games (like PUBG, Valorant, CS-GO)</label>
+        <label for="openworld"><input type="checkbox" name="openworld"value="openworld" class="inline">Open world Games (like GTA franchise, Assasin Creed, Minecraft)</label>
+        <label for="gatcha"><input type="checkbox" value="gacha" name="gatcha"class="inline">Gacha Games (like Genshin Impact, Honkai Impact, Another Eden)</label>
+     </fieldset>
+
+        <fieldset>
+        <p>Your Gaming Device: </p>
+        <label for="mobile"><input type="checkbox" class="inline" value="mobile"name="mobile">Mobile</label>
+        <label for="PC"><input type="checkbox" class="inline" value="PC"name="PC">PC</label>
+        <label for="console"><input type="checkbox" class="inline" value="console"name="console">Console</label>
+        <label>Other: <input type="text" name="other"></label>
+       </fieldset>
+
+     <fieldset>
+        <p>Your Gaming Device Specs: </p>
+        <label ><input type="radio" class="inline" name="range" value="low">Low range device</label>
+        <label ><input type="radio" class="inline" name="range" value="mid">Mid range device</label>
+        <label ><input type="radio" class="inline" name="range" value="high">High range device</label>
+       </fieldset>
+
+  
+        <fieldset>
+          <label for="promo"><input type="checkbox" class="inline" name="promo" value="promo"> Subscribe to our newsletter</label>
+          <label for="promo"><input type="checkbox" class="inline" name="promo" value="promo"> I accept the <a href="i don't have a website">Terms and Conditions</label>
+          </fieldset>
+
+          <fieldset>
+            <p name="pro">My Github: <a href="https://github.com/WeebAman">click here</p>
+            <input id="submit" type="submit">
+            </fieldset>
+
+            </form>
+    </body> 
+  
+  
+  </html>
